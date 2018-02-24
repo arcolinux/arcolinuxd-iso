@@ -22,7 +22,7 @@ echo "Deleting the build folder if one exists - takes some time"
 
 echo "Copying files and folder to ~/arcolinuxd-build"
 
-sudo cp -r ../../ArcolinuxD-Iso ~/arcolinuxd-build
+sudo cp -r ../../arcolinuxd-iso ~/arcolinuxd-build
 
 
 
