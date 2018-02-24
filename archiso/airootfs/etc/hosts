@@ -3,7 +3,7 @@
 #
 
 #<ip-address>	<hostname.domain.org>	<hostname>
-127.0.0.1 localhost localhost.localdomain localhost4 localhost4.localdomain4 ArchMergeD
-::1 localhost localhost.localdomain localhost6 localhost6.localdomain6 ArchMergeD
+127.0.0.1 localhost localhost.localdomain localhost4 localhost4.localdomain4 ArcoLinuxD
+::1 localhost localhost.localdomain localhost6 localhost6.localdomain6 ArcoLinuxD
 
 # End of file
