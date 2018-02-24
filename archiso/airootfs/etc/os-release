@@ -1,8 +1,8 @@
-NAME="ArchMergeD"
-ID=ArchMergeD
+NAME="ArcoLinuxD"
+ID=ArcoLinuxD
 ID_LIKE="arch"
 VERSION_ID=v6.5.1
 PRETTY_NAME="Kirk"
 ANSI_COLOR="0;36"
-HOME_URL="https://archmerge.info"
-SUPPORT_URL="http://archmergeforum.com"
+HOME_URL="https://arcolinux.info"
+SUPPORT_URL="http://arcolinuxforum.com"
