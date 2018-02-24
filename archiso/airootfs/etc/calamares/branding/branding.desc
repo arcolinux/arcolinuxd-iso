@@ -1,0 +1,23 @@
+---
+componentName:  archmerged
+
+strings:
+    productName:         ArchMergeD
+    shortProductName:    ArchMergeD
+    version:             1.0
+    shortVersion:        1.0
+    versionedName:       ArchMergeD
+    shortVersionedName:  ArchMergeD
+    bootloaderEntryName: ArchMergeD
+
+images:
+    productLogo:         "squid.png"
+    productIcon:         "logo.png"
+    productWelcome:      "languages.png"
+
+slideshow:               "show.qml"
+
+style:
+   sidebarBackground:    "#353945"
+   sidebarText:          "#ECEDEE"
+   sidebarTextSelect:    "#353945"
