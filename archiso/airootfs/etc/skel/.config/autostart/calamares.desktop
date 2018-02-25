@@ -1,7 +1,7 @@
 [Desktop Entry]
 Type=Application
-Name=Install ArchMergeD
-Comment=Installer for ArchMergeD
+Name=Install ArcoLinuxD
+Comment=Installer for ArcoLinuxD
 Categories=Utility;
 Exec=sudo -E calamares
 Icon=am-calamares
