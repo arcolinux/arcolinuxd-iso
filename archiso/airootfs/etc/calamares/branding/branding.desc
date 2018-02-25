@@ -1,14 +1,14 @@
 ---
-componentName:  archmerged
+componentName:  arcolinux
 
 strings:
-    productName:         ArchMergeD
-    shortProductName:    ArchMergeD
+    productName:         ArcoLinuxD
+    shortProductName:    ArcoLinuxD
     version:             1.0
     shortVersion:        1.0
-    versionedName:       ArchMergeD
-    shortVersionedName:  ArchMergeD
-    bootloaderEntryName: ArchMergeD
+    versionedName:       ArcoLinuxD
+    shortVersionedName:  ArcoLinuxD
+    bootloaderEntryName: ArcoLinuxD
 
 images:
     productLogo:         "squid.png"

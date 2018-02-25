@@ -34,7 +34,7 @@ Presentation
 
         Image {
             id: background1
-            source: "calamares-archmerged-intro.png"
+            source: "calamares-arcolinuxd-intro.png"
             width: 800; height: 350
             fillMode: Image.PreserveAspectFit
 			anchors.centerIn: parents
@@ -43,10 +43,10 @@ Presentation
         Text {
             anchors.horizontalCenter: background1.horizontalCenter
             anchors.top: background1.bottom
-            text: "Welcome to ArchMergeD. <br/>"+
-                  "ArchMergeD is our distro to gradually learn how to work with Arch Linux.<br/>"+
+            text: "Welcome to ArcoLinuxD. <br/>"+
+                  "ArcoLinuxD is our distro to gradually learn how to work with Arch Linux.<br/>"+
                   "We use calamares as easy graphical installer to install a base system.<br/>"+
-                  "ArchMergeD has no icons, themes, software or desktops."
+                  "ArcoLinuxD has no icons, themes, software or desktops."
             wrapMode: Text.WordWrap
             width: 600
             horizontalAlignment: Text.Center
@@ -58,7 +58,7 @@ Presentation
 
         Image {
             id: background2
-            source: "calamares-archmerged-awesome.png"
+            source: "calamares-arcolinuxd-awesome.png"
             width: 800; height: 350
             fillMode: Image.PreserveAspectFit
 			anchors.centerIn: parents
@@ -70,7 +70,7 @@ Presentation
 
         Image {
             id: background3
-            source: "calamares-archmerged-bspwm.png"
+            source: "calamares-arcolinuxd-bspwm.png"
             width: 800; height: 350
             fillMode: Image.PreserveAspectFit
 			anchors.centerIn: parents
@@ -82,7 +82,7 @@ Presentation
 
         Image {
             id: background4
-            source: "calamares-archmerged-budgie.png"
+            source: "calamares-arcolinuxd-budgie.png"
             width: 800; height: 350
             fillMode: Image.PreserveAspectFit
 			anchors.centerIn: parents
@@ -94,7 +94,7 @@ Presentation
 
         Image {
             id: background5
-            source: "calamares-archmerged-cinnamon.png"
+            source: "calamares-arcolinuxd-cinnamon.png"
             width: 800; height: 350
             fillMode: Image.PreserveAspectFit
 			anchors.centerIn: parents
@@ -106,7 +106,7 @@ Presentation
 
         Image {
             id: background6
-            source: "calamares-archmerged-deepin.png"
+            source: "calamares-arcolinuxd-deepin.png"
             width: 800; height: 350
             fillMode: Image.PreserveAspectFit
 			anchors.centerIn: parents
@@ -118,7 +118,7 @@ Presentation
 
         Image {
             id: background7
-            source: "calamares-archmerged-gnome.png"
+            source: "calamares-arcolinuxd-gnome.png"
             width: 800; height: 350
             fillMode: Image.PreserveAspectFit
 			anchors.centerIn: parents
@@ -130,7 +130,7 @@ Presentation
 
         Image {
             id: background8
-            source: "calamares-archmerged-i3wm.png"
+            source: "calamares-arcolinuxd-i3wm.png"
             width: 800; height: 350
             fillMode: Image.PreserveAspectFit
 			anchors.centerIn: parents
@@ -142,7 +142,7 @@ Presentation
 
         Image {
             id: background9
-            source: "calamares-archmerged-lxqt.png"
+            source: "calamares-arcolinuxd-lxqt.png"
             width: 800; height: 350
             fillMode: Image.PreserveAspectFit
 			anchors.centerIn: parents
@@ -154,7 +154,7 @@ Presentation
 
         Image {
             id: background10
-            source: "calamares-archmerged-mate.png"
+            source: "calamares-arcolinuxd-mate.png"
             width: 800; height: 350
             fillMode: Image.PreserveAspectFit
 			anchors.centerIn: parents
@@ -166,7 +166,7 @@ Presentation
 
         Image {
             id: background11
-            source: "calamares-archmerged-openbox.png"
+            source: "calamares-arcolinuxd-openbox.png"
             width: 800; height: 350
             fillMode: Image.PreserveAspectFit
 			anchors.centerIn: parents
@@ -179,7 +179,7 @@ Presentation
 
         Image {
             id: background12
-            source: "calamares-archmerged-plasma.png"
+            source: "calamares-arcolinuxd-plasma.png"
             width: 800; height: 350
             fillMode: Image.PreserveAspectFit
 			anchors.centerIn: parents
@@ -191,7 +191,7 @@ Presentation
 
         Image {
             id: background13
-            source: "calamares-archmerged-xfce.png"
+            source: "calamares-arcolinuxd-xfce.png"
             width: 800; height: 350
             fillMode: Image.PreserveAspectFit
 			anchors.centerIn: parents
@@ -202,7 +202,7 @@ Presentation
 
         Image {
             id: background14
-            source: "calamares-archmerged-xmonad.png"
+            source: "calamares-arcolinuxd-xmonad.png"
             width: 800; height: 350
             fillMode: Image.PreserveAspectFit
 			anchors.centerIn: parents
