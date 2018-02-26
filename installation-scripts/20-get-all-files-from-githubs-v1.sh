@@ -13,7 +13,7 @@
 ##################################################################################################################
 
 echo "Removing old files/folders from folder"
-rm -rf ../archiso/airootfs/etc/skel/.* 2> /dev/null
+rm -rf ../archiso/airootfs/etc/skel/.bashrc
 
 echo "getting .bashrc from iso-skel"
 cp -r ../../arcolinux-root/root/.bashrc-latest ../archiso/airootfs/etc/skel/.bashrc
