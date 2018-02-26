@@ -83,4 +83,3 @@ shopt -s dotglob
 shopt -s histappend # do not overwrite history
 shopt -s expand_aliases # expand aliases
 
-neofetch
