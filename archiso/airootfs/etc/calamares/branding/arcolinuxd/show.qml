@@ -118,6 +118,18 @@ Presentation
 
         Image {
             id: background7
+            source: "calamares-arcolinuxd-enlightenment.png"
+            width: 800; height: 350
+            fillMode: Image.PreserveAspectFit
+      anchors.centerIn: parents
+        }
+
+    }
+
+    Slide {
+
+        Image {
+            id: background8
             source: "calamares-arcolinuxd-gnome.png"
             width: 800; height: 350
             fillMode: Image.PreserveAspectFit
@@ -129,7 +141,7 @@ Presentation
     Slide {
 
         Image {
-            id: background8
+            id: background9
             source: "calamares-arcolinuxd-i3wm.png"
             width: 800; height: 350
             fillMode: Image.PreserveAspectFit
@@ -141,7 +153,19 @@ Presentation
     Slide {
 
         Image {
-            id: background9
+            id: background10
+            source: "calamares-arcolinuxd-lxde.png"
+            width: 800; height: 350
+            fillMode: Image.PreserveAspectFit
+      anchors.centerIn: parents
+        }
+
+    }
+
+    Slide {
+
+        Image {
+            id: background11
             source: "calamares-arcolinuxd-lxqt.png"
             width: 800; height: 350
             fillMode: Image.PreserveAspectFit
@@ -153,7 +177,7 @@ Presentation
     Slide {
 
         Image {
-            id: background10
+            id: background12
             source: "calamares-arcolinuxd-mate.png"
             width: 800; height: 350
             fillMode: Image.PreserveAspectFit
@@ -165,7 +189,7 @@ Presentation
     Slide {
 
         Image {
-            id: background11
+            id: background13
             source: "calamares-arcolinuxd-openbox.png"
             width: 800; height: 350
             fillMode: Image.PreserveAspectFit
@@ -178,7 +202,7 @@ Presentation
     Slide {
 
         Image {
-            id: background12
+            id: background14
             source: "calamares-arcolinuxd-plasma.png"
             width: 800; height: 350
             fillMode: Image.PreserveAspectFit
@@ -190,7 +214,7 @@ Presentation
     Slide {
 
         Image {
-            id: background13
+            id: background15
             source: "calamares-arcolinuxd-xfce.png"
             width: 800; height: 350
             fillMode: Image.PreserveAspectFit
@@ -201,7 +225,7 @@ Presentation
     Slide {
 
         Image {
-            id: background14
+            id: background16
             source: "calamares-arcolinuxd-xmonad.png"
             width: 800; height: 350
             fillMode: Image.PreserveAspectFit
