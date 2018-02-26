@@ -3,8 +3,8 @@
 set -e -u
 
 iso_name=arcolinuxd
-iso_label="arcolinuxd-v6.5.4-$(date +%Y%m)-x86_64"
-iso_version="v6.5.4-$(date +%Y.%m.%d)"
+iso_label="arcolinuxd-v6.5.5-$(date +%Y%m)-x86_64"
+iso_version="v6.5.5-$(date +%Y.%m.%d)"
 install_dir=arch
 work_dir=work
 out_dir=out
