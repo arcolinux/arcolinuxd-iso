@@ -222,16 +222,5 @@ Presentation
         }
 
     }
-    Slide {
-
-        Image {
-            id: background16
-            source: "calamares-arcolinuxd-xmonad.png"
-            width: 800; height: 350
-            fillMode: Image.PreserveAspectFit
-			anchors.centerIn: parents
-        }
-
-    }
 
 }
