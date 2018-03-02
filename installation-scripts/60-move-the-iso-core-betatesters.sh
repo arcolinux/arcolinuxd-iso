@@ -12,8 +12,8 @@ set -e
 #
 ##################################################################################################################
 
-echo "moving iso to documents"
-cp ~/arcolinuxd-build/archiso/out/arcolinuxd* ~/Documents/
+#echo "moving iso to documents"
+#cp ~/arcolinuxd-build/archiso/out/arcolinuxd* ~/Documents/
 
 #echo "moving iso to insync just for Teammembers only"
 #cp ~/arcolinuxd-build/archiso/out/arcolinuxd* ~/Insync/SHARED/TeamMembers-Only/
