@@ -243,6 +243,7 @@ termite
 
 #utilities
 #arandr
+asciinema
 bash-completion
 #baobab
 #catfish
