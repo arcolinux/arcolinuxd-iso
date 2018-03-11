@@ -6,4 +6,4 @@ StartupNotify=false
 Name=ArcoLinux Hello
 Exec=exo-open "https://arcolinux.info/arcolinux-editions/"
 Icon=arcolinux-hello
-Comment=Need to know information about Arcolinux
+Comment=Need to know information about ArcoLinux

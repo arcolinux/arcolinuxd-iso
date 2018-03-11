@@ -18,3 +18,4 @@ if [ $result = "none" ];
 	rm /etc/modules-load.d/virtualbox.conf
 	systemctl disable virtual-machine-check.service
 fi
+

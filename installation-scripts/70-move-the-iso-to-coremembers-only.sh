@@ -1,10 +1,10 @@
 #!/bin/bash
-#set -e
+set -e
 #
 ##################################################################################################################
 # Written to be used on 64 bits computers
 # Author 	: 	Erik Dubois
-# ArcoLinux : 	https://arcolinux.com/
+# ArcoLinux	: 	https://arcolinux.com/
 ##################################################################################################################
 ##################################################################################################################
 #
@@ -12,13 +12,5 @@
 #
 ##################################################################################################################
 
-echo "Removing old files/folders from folder"
-rm -rf ../archiso/airootfs/etc/skel/.bashrc
-
-echo "getting .bashrc from iso-skel"
-#cp -r ../../arcolinux-root/root/.bashrc-latest ../archiso/airootfs/etc/skel/.bashrc
-wget https://raw.githubusercontent.com/arcolinux/arcolinux-root/master/root/.bashrc-latest -O ../archiso/airootfs/etc/skel/.bashrc
-echo ".bashrc copied to /etc/skel"
-
-echo "deleting neofetch line to avoid error message at start"
-sed -i '/neofetch/d' ../archiso/airootfs/etc/skel/.bashrc
+echo "moving iso to insync just for Teammembers only"
+cp ~/arcolinuxd-build/archiso/out/arcolinuxd* ~/Insync/SHARED/TeamMembers-Only/
