@@ -55,6 +55,8 @@ function setDefaultsFunc() {
 }
 
 function enableServicesFunc() {
+  systemctl enable lightdm.service
+  systemctl set-default graphical.target
 	systemctl enable NetworkManager.service
 	systemctl enable virtual-machine-check.service
 	systemctl enable reflector.service
