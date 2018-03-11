@@ -1,5 +1,8 @@
 #!/bin/bash
 
+pacman-key --init
+pacman-key --populate archlinux arcolinux
+
 set -e -u
 
 iso_name=arcolinuxd

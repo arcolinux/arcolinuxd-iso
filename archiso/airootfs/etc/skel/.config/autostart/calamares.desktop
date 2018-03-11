@@ -4,4 +4,4 @@ Name=Install ArchMergeD
 Comment=Installer for ArchMergeD
 Categories=Utility;
 Exec=sudo -E calamares
-Icon=am-calamares
+Icon=arco-calamares
