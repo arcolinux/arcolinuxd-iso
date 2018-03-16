@@ -211,6 +211,7 @@ wpa_supplicant
 #catfish
 #chromium
 #compton
+#darktable
 #dmenu
 #evolution
 #feh
@@ -230,7 +231,7 @@ wpa_supplicant
 #nitrogen
 #numlockx
 #pragha
-qt4
+#qt4
 #scrot
 #simplescreenrecorder
 termite
@@ -248,7 +249,7 @@ bash-completion
 #catfish
 #cmatrix
 #cool-retro-term
-#darktable
+#dconf-editor
 #dialog
 dmidecode
 #evince
@@ -400,6 +401,7 @@ mousepad
 #arcolinux-conky-collection-git
 #arcolinux-docs-git
 #arcolinux-i3wm-git
+#arcolinux-faces-git
 #arcolinux-geany-git
 arcolinux-keyring
 #arcolinux-local-git
