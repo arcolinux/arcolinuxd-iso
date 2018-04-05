@@ -12,6 +12,17 @@ set -e
 #
 ##################################################################################################################
 
+echo "Removing old files/folders from folder"
+rm -rf ../archiso/airootfs/etc/skel/.bashrc
+
+echo "getting .bashrc from iso-skel"
+#cp -r ../../arcolinux-root/root/.bashrc-latest ../archiso/airootfs/etc/skel/.bashrc
+wget https://raw.githubusercontent.com/arcolinux/arcolinux-root/master/root/.bashrc-latest -O ../archiso/airootfs/etc/skel/.bashrc
+echo ".bashrc copied to /etc/skel"
+
+echo "deleting neofetch line to avoid error message at start"
+sed -i '/neofetch/d' ../archiso/airootfs/etc/skel/.bashrc
+
 echo "Checking if archiso is installed"
 
 package="archiso"
