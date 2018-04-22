@@ -482,6 +482,7 @@ yaourt
 arcolinux-keyring
 #arcolinux-local-git
 #arcolinux-neofetch-git
+#arcolinux-neofetch-ascii-git
 #arcolinux-nitrogen-git
 #arcolinux-oblogout-themes-git
 #arcolinux-obmenu-generator-git
@@ -492,6 +493,7 @@ arcolinux-keyring
 #arcolinux-plank-themes-git
 #arcolinux-polybar-git
 #arcolinux-rofi-git
+#arcolinux-rofi-themes-git
 #arcolinux-root-git
 #arcolinux-slimlock-themes-git
 #arcolinux-termite-themes-git
