@@ -36,7 +36,7 @@ function editOrCreateConfigFilesFunc () {
 
 function createLiveUserFunc () {
 	# add liveuser
-	useradd -m -p "arcolinux" -u 500 -g users -G "adm,audio,floppy,log,network,rfkill,scanner,storage,optical,power,wheel" -s /bin/bash liveuser
+	useradd -m liveuser -u 500 -g users -G "adm,audio,floppy,log,network,rfkill,scanner,storage,optical,power,wheel" -s /bin/bash
   chown -R liveuser:users /home/liveuser
 
   #enable autologin
@@ -91,7 +91,7 @@ function initkeysFunc() {
     #pacman-key --keyserver hkps://hkps.pool.sks-keyservers.net:443 -r 74F5DE85A506BF64
     #pacman-key --keyserver hkp://pool.sks-keyservers.net:80 -r 74F5DE85A506BF64
     pacman-key --lsign-key 74F5DE85A506BF64
-	  #sudo pacman-key --refresh-keys
+	#sudo pacman-key --refresh-keys
 }
 
 function getNewMirrorCleanAndUpgrade() {

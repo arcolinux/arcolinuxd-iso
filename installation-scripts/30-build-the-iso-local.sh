@@ -1,5 +1,5 @@
 #!/bin/bash
-set -e
+#set -e
 #
 ##################################################################################################################
 # Written to be used on 64 bits computers
@@ -12,11 +12,15 @@ set -e
 #
 ##################################################################################################################
 
+echo "Getting the latest files from the githubs"
+echo
+echo
+
 echo "Removing old files/folders from folder"
 rm -rf ../archiso/airootfs/etc/skel/.bashrc
 
-echo "getting .bashrc from iso-skel"
-#cp -r ../../arcolinux-root/root/.bashrc-latest ../archiso/airootfs/etc/skel/.bashrc
+echo "getting .bashrc from arcolinux-root"
+
 wget https://raw.githubusercontent.com/arcolinux/arcolinux-root/master/root/.bashrc-latest -O ../archiso/airootfs/etc/skel/.bashrc
 echo ".bashrc copied to /etc/skel"
 

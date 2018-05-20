@@ -88,7 +88,7 @@ xf86-video-ati
 xf86-video-dummy
 xf86-video-fbdev
 xf86-video-intel
-xf86-video-nouveau
+#xf86-video-nouveau
 xf86-video-openchrome
 #xf86-video-qxl
 xf86-video-vesa
@@ -321,7 +321,9 @@ gksu
 #glances
 #gnome-disk-utility
 #gnome-keyring
+#gnome-screenshot
 #gnome-software
+#gnome-software-packagekit-plugin
 gparted
 #gpick
 #gtop
@@ -376,6 +378,7 @@ squashfs-tools
 #webkit2gtk
 #wget
 #xapps
+#xcape
 #xdg-desktop-portal-gtk
 #xfburn
 #zenity
@@ -457,10 +460,13 @@ packer
 #pamac-aur
 #peek
 #pulseaudio-equalizer-ladspa
+#python-pywal
 #screenkey
 #sublime-text-dev
 #temps
 trizen
+#urxvt-perls
+#urxvt-resize-font-git
 #wttr
 #yad
 yaourt
@@ -473,13 +479,14 @@ yaourt
 #arcolinux-applications-git
 #arcolinux-arc-themes-git
 #arcolinux-awesome-git
+#arcolinux-bspwm-git
 #arcolinux-common-git
 #arcolinux-config-git
 #arcolinux-conky-collection-git
 #arcolinux-docs-git
-#arcolinux-i3wm-git
 #arcolinux-faces-git
 #arcolinux-geany-git
+#arcolinux-i3wm-git
 arcolinux-keyring
 #arcolinux-local-git
 #arcolinux-neofetch-git
