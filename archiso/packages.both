@@ -377,6 +377,7 @@ squashfs-tools
 #w3m
 #webkit2gtk
 #wget
+#wmctrl
 #xapps
 #xcape
 #xdg-desktop-portal-gtk
@@ -479,6 +480,7 @@ yaourt
 #arcolinux-applications-git
 #arcolinux-arc-themes-git
 #arcolinux-awesome-git
+#arcolinux-bin-git
 #arcolinux-bspwm-git
 #arcolinux-common-git
 #arcolinux-config-git
