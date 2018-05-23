@@ -482,7 +482,6 @@ yaourt
 #arcolinux-awesome-git
 #arcolinux-bin-git
 #arcolinux-bspwm-git
-arcolinuxd-calamares-git
 #arcolinux-common-git
 #arcolinux-config-git
 #arcolinux-conky-collection-git
@@ -525,3 +524,4 @@ arcolinux-xfce-thunar-git
 calamares
 boost-libs
 qt4
+arcolinuxd-calamares-git
