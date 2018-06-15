@@ -453,7 +453,7 @@ glxinfo
 #menulibre
 #mintstick-git
 #mugshot
-#neofetch
+neofetch
 #oh-my-zsh-git
 #oomox
 package-query
@@ -497,7 +497,7 @@ arcolinux-keyring
 #arcolinux-lightdm-gtk-greeter
 #arcolinux-lightdm-gtk-greeter-settings
 #arcolinux-local-git
-#arcolinux-neofetch-git
+arcolinux-neofetch-git
 #arcolinux-neofetch-ascii-git
 #arcolinux-nitrogen-git
 #arcolinux-oblogout
