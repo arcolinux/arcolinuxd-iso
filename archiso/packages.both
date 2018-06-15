@@ -527,5 +527,4 @@ arcolinux-xfce-thunar-git
 #Calamares installer
 calamares
 boost-libs
-qt4
 arcolinuxd-calamares-git
