@@ -263,7 +263,7 @@ ckbcomp
 noto-fonts
 #terminus-font
 #ttf-bitstream-vera
-#ttf-dejavu
+ttf-dejavu
 #ttf-droid
 #ttf-inconsolata
 #ttf-liberation
@@ -457,7 +457,7 @@ glxinfo
 #oh-my-zsh-git
 #oomox
 package-query
-packer
+#packer
 #pamac-aur
 #peek
 #pulseaudio-equalizer-ladspa
@@ -526,5 +526,6 @@ arcolinux-xfce-thunar-git
 
 #Calamares installer
 calamares
-boost-libs
 arcolinuxd-calamares-git
+libpwquality
+ephifonts
