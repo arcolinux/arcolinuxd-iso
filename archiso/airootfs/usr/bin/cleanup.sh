@@ -1,7 +1,6 @@
 #!/bin/bash
 rm -f /etc/sudoers.d/g_wheel
 chmod 750 /etc/sudoers.d
-chmod 750 /etc/polkit-1
 chmod 750 /etc/polkit-1/rules.d
 #rm /etc/systemd/system/default.target
 rm /usr/share/applications/calamares.desktop
