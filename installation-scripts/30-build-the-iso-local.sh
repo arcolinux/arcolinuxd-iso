@@ -124,7 +124,7 @@ echo "################################################################## "
 echo "Phase 5 : Cleaning the cache"
 echo "################################################################## "
 echo
-sudo pacman -Scc --noconfirm
+yes | sudo pacman -Scc
 
 
 echo
