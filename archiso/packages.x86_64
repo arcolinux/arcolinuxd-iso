@@ -500,7 +500,6 @@ arcolinux-keyring
 #arcolinux-lightdm-gtk-greeter-settings
 #arcolinux-local-git
 arcolinux-neofetch-git
-#arcolinux-neofetch-ascii-git
 #arcolinux-nitrogen-git
 #arcolinux-oblogout
 #arcolinux-oblogout-awesome
