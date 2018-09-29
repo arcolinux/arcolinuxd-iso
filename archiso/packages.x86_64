@@ -589,7 +589,6 @@ mousepad
 calamares
 networkmanager
 upower
-extra-cmake-modules
 kcoreaddons
 kconfig
 ki18n
