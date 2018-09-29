@@ -599,5 +599,7 @@ kpmcore
 boost-libs
 libpwquality
 squashfs-tools
+plasma-framework
+hwinfo
 
 arcolinuxd-calamares-git
