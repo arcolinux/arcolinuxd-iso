@@ -74,6 +74,9 @@ alias skel='cp -rf /etc/skel/* ~'
 #quickly kill conkies
 alias kc='killall conky'
 
+#hardware info --short
+alias hw="hwinfo --short"
+
 #get fastest mirrors in your neighborhood 
 alias mirror="sudo reflector --protocol https --latest 50 --number 20 --sort rate --save /etc/pacman.d/mirrorlist"
 alias mirrors=mirror
