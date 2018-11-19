@@ -446,7 +446,6 @@ glxinfo
 neofetch
 #oh-my-zsh-git
 #oomox
-package-query
 #pamac-aur
 #peek
 #pulseaudio-equalizer-ladspa
@@ -461,7 +460,6 @@ trizen
 #wttr
 #yad
 yay-bin
-yaourt
 
 #############################
 #Games
