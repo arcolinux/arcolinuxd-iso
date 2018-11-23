@@ -285,8 +285,10 @@ lightdm
 
 
 #lx-applications
+#lxappearance
+#lxappearance-gtk3
 #lxappearance-obconf
-#lxmenu-data
+#lxappearance-obconf-gtk3
 #lxrandr
 
 #openbox
@@ -338,7 +340,6 @@ gparted
 #libmtp
 laptop-detect
 lsb-release
-#lxrandr
 mlocate
 #nomacs
 #p7zip
@@ -355,7 +356,6 @@ mlocate
 #powertop
 reflector
 #redshift
-#ristretto
 #rofi
 #rxvt-unicode
 #simple-scan
@@ -589,6 +589,8 @@ mousepad
 
 #Needed for Calamares installer
 calamares
+arcolinuxd-calamares-git
+ckbcomp
 networkmanager
 upower
 kcoreaddons
@@ -602,5 +604,3 @@ libpwquality
 squashfs-tools
 plasma-framework
 hwinfo
-
-arcolinuxd-calamares-git
