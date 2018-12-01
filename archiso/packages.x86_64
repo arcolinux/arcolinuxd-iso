@@ -591,6 +591,7 @@ mousepad
 #Needed for Calamares installer
 calamares
 arcolinuxd-calamares-git
+arcolinuxd-system-installation-git
 ckbcomp
 networkmanager
 upower
