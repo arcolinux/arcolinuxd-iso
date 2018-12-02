@@ -19,8 +19,7 @@ echo "Phase 1 : get the latest bashrc from github"
 echo "################################################################## "
 echo
 echo "Removing old files/folders from folder"
-#there is also a .config folder for calamares
-rm -rf ../archiso/airootfs/etc/skel/.bashrc
+rm -rf ../archiso/airootfs/etc/skel/.* 2> /dev/null
 echo "getting .bashrc from arcolinux-root"
 wget https://raw.githubusercontent.com/arcolinux/arcolinux-root/master/root/.bashrc-latest -O ../archiso/airootfs/etc/skel/.bashrc
 echo ".bashrc copied to /etc/skel"
@@ -118,6 +117,10 @@ echo "################################################################## "
 echo
 echo "Copying files and folder to ~/arcolinux-build"
 sudo cp -r ../../arcolinuxd-iso ~/arcolinuxd-build
+
+sudo chmod 750 ~/arcolinuxd-build/archiso/airootfs/etc/sudoers.d
+sudo chmod 750 ~/arcolinuxd-build/archiso/airootfs/etc/polkit-1/rules.d
+sudo chgrp polkitd ~/arcolinuxd-build/archiso/airootfs/etc/polkit-1/rules.d
 
 echo
 echo "################################################################## "
