@@ -350,7 +350,7 @@ mlocate
 #polkit-gnome
 #python2-dbus
 #python2-xdg
-#qt5ct
+qt5ct
 #qt5-styleplugins
 #qt5-tools
 #qt5-webkit
