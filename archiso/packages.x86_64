@@ -299,6 +299,8 @@ lightdm
 #themes
 #adapta-gtk-theme
 arc-gtk-theme
+#kvantum-qt5
+#kvantum-theme-arc
 #numix-gtk-theme
 
 #utilities
