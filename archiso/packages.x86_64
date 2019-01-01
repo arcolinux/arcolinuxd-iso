@@ -304,7 +304,7 @@ arc-gtk-theme
 #numix-gtk-theme
 
 #utilities
-#arandr
+arandr
 asciinema
 bash-completion
 #baobab
