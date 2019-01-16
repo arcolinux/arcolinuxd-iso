@@ -241,11 +241,11 @@ wpa_supplicant
 #nitrogen
 numlockx
 #pragha
+#qbittorrent
 #scrot
 #simplescreenrecorder
 termite
 #tint2
-#transmission-gtk
 #variety
 #vlc
 
@@ -367,7 +367,6 @@ reflector
 #speedtest-cli
 #timeshift
 #tlp
-#transmission-cli
 #ufw
 #gufw
 #unace
