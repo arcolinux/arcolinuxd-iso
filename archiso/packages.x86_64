@@ -367,6 +367,7 @@ reflector
 #speedtest-cli
 #timeshift
 #tlp
+#tree
 #ufw
 #gufw
 #unace
@@ -459,6 +460,7 @@ neofetch
 #screenkey
 #sublime-text-dev
 #temps
+#the_platinum_searcher-bin
 #tmux
 trizen
 #urxvt-perls
@@ -497,6 +499,7 @@ yay-bin
 #arcolinux-faces-git
 #arcolinux-fonts-git
 #arcolinux-geany-git
+arcolinux-grub-theme-vimix-git
 #arcolinux-i3wm-git
 arcolinux-keyring
 #arcolinux-kvantum-git

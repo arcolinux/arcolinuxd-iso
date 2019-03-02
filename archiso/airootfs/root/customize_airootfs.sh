@@ -50,8 +50,17 @@ function createLiveUserFunc () {
 function setDefaultsFunc() {
     export _EDITOR=nano
     echo "EDITOR=${_EDITOR}" >> /etc/environment
-    #echo "EDITOR=${_EDITOR}" >> /etc/skel/.bashrc
     echo "EDITOR=${_EDITOR}" >> /etc/profile
+}
+
+function fixHavegedFunc(){
+    systemctl enable haveged
+}
+
+function fixPermissionsFunc() {
+    chmod 750 /etc/sudoers.d
+    chmod 750 /etc/polkit-1/rules.d
+    chgrp polkitd /etc/polkit-1/rules.d
 }
 
 function enableServicesFunc() {
@@ -93,28 +102,60 @@ function getNewMirrorCleanAndUpgrade() {
     pacman -Sc --noconfirm
     pacman -Syyu --noconfirm
 }
-
+echo
+echo "##########################################################"
+echo "##########################################################"
+echo
 umaskFunc
 echo "#####   Function umaskFunc done    #####"
-#localeGenFunc
-#echo "#####   Function localeGenFunc done    #####"
+echo
 setTimeZoneAndClockFunc
+echo
 echo "#####   Function setTimeZoneAndClockFunc done    #####"
+echo
 editOrCreateConfigFilesFunc
+echo
 echo "#####   Function editOrCreateConfigFilesFunc done    #####"
+echo
 configRootUserFunc
+echo
 echo "#####   Function configRootUserFunc done    #####"
+echo
 createLiveUserFunc
+echo
 echo "#####   Function createLiveUserFunc done    #####"
+echo
 setDefaultsFunc
+echo
 echo "#####   Function setDefaultsFunc done    #####"
+echo
+fixHavegedFunc
+echo
+echo "#####   Function fixHavegedFunc done    #####"
+echo
+fixPermissionsFunc
+echo
+echo "#####   Function fixPermissionsFunc done    #####"
+echo
 enableServicesFunc
+echo
 echo "#####   Function enableServicesFunc done    #####"
 fixWifiFunc
+echo
 echo "#####   Function fixWifiFunc done    #####"
+echo
 fixHibernateFunc
+echo
 echo "#####   Function fixHibernateFunc done    #####"
+echo
 initkeysFunc
+echo
 echo "#####   Function  initkeysFunc done    #####"
+echo
 getNewMirrorCleanAndUpgrade
+echo
 echo "#####   Function getNewMirrorCleanAndUpgrade done    #####"
+echo
+echo "##########################################################"
+echo "##########################################################"
+echo
