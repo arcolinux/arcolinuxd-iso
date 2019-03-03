@@ -536,7 +536,7 @@ arcolinux-system-config-git
 #arcolinux-tint2-git
 #arcolinux-tint2-themes-git
 #arcolinux-variety-git
-#arcolinux-wallpapers-git
+arcolinux-wallpapers-git
 #arcolinux-xfce4-panel-profiles-git
 arcolinux-xfce-thunar-git
 #arcolinux-xmonad-git
