@@ -1,5 +1,9 @@
 #!/bin/bash
 
+function deleteXfceWallpapers() {
+    rm -rf /usr/share/backgrounds/xfce
+}
+
 function umaskFunc() {
     set -e -u
     umask 022
@@ -106,6 +110,10 @@ function getNewMirrorCleanAndUpgrade() {
 echo
 echo "##########################################################"
 echo "##########################################################"
+echo
+deleteXfceWallpapers
+echo "#####   Function deleteXfceWallpapers done    #####"
+echo
 echo
 umaskFunc
 echo "#####   Function umaskFunc done    #####"
