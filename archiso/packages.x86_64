@@ -64,7 +64,7 @@ vim-minimal
 vpnc
 wget
 wireless_tools
-wpa_actiond
+#wpa_actiond
 wvdial
 xl2tpd
 
@@ -218,7 +218,6 @@ wpa_supplicant
 
 #applications
 #atom
-#catfish
 #chromium
 #compton
 #darktable
@@ -313,7 +312,6 @@ bash-completion
 #cmatrix
 #cool-retro-term
 #dconf-editor
-dialog
 dmidecode
 #evince
 #expac
@@ -377,12 +375,10 @@ reflector
 #vnstat
 #w3m
 #webkit2gtk
-#wget
 #wmctrl
 #xapps
 #xcape
 #xdg-desktop-portal-gtk
-#xfburn
 #youtube-dl
 #zenity
 #zsh
@@ -455,7 +451,6 @@ neofetch
 #pamac-aur
 #peek
 #pulseaudio-equalizer-ladspa
-#python-pystache
 #python-pywal
 #screenkey
 #sublime-text-dev
@@ -553,8 +548,6 @@ arcolinux-xfce-thunar-git
 #garcon
 #gtk-xfce-engine
 thunar
-#thunar-volman
-#tumbler
 #xfce4-appfinder
 xfce4-panel
 #xfce4-power-manager
@@ -572,8 +565,6 @@ mousepad
 #orage
 #parole
 #ristretto
-#thunar-archive-plugin
-#thunar-media-tags-plugin
 #xfburn
 #xfce4-artwork
 #xfce4-battery-plugin
@@ -613,7 +604,6 @@ calamares
 arcolinuxd-calamares-git
 arcolinuxd-system-installation-git
 ckbcomp
-networkmanager
 upower
 kcoreaddons
 kconfig
