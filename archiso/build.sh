@@ -3,10 +3,10 @@
 set -e -u
 
 iso_name=arcolinuxd
-iso_label="arcolinuxd-v19.04.4-x86_64"
+iso_label="arcolinuxd-v19.05.1-x86_64"
 iso_publisher="ArcoLinux <http://www.arcolinux.info>"
 iso_application="ArcoLinuxD Live/Rescue CD"
-iso_version="v19.04.4"
+iso_version="v19.05.1"
 install_dir=arch
 work_dir=work
 out_dir=out
