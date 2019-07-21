@@ -301,7 +301,6 @@ lightdm
 arc-gtk-theme
 #kvantum-qt5
 #kvantum-theme-arc
-#numix-gtk-theme
 
 #utilities
 arandr
@@ -445,7 +444,9 @@ glxinfo
 #menulibre
 #mintstick-git
 #mugshot
+#numix-gtk-theme-git
 neofetch
+#numix-gtk-theme-git
 #oh-my-zsh-git
 #oomox
 #pamac-aur
