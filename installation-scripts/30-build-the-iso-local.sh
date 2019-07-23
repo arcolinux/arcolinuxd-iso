@@ -14,6 +14,13 @@
 #   DO NOT JUST RUN THIS. EXAMINE AND JUDGE. RUN AT YOUR OWN RISK.
 #
 ##################################################################################################################
+buildFolder="$HOME/arcolinuxd-build"
+outFolder="$HOME/ArcoLinuxD-Out"
+#changing to LTS
+isoNameOld="iso_name=arcolinuxd"
+isoNameNew="iso_name=arcolinuxd-lts"
+calConfOld="arcolinuxd-calamares-git"
+calConfNew="arcolinuxd-calamares-lts-git"
 
 echo
 echo "################################################################## "
@@ -87,7 +94,7 @@ tput setaf 2;echo "Phase 3 : Making sure we start with a clean slate";tput sgr0
 echo "################################################################## "
 echo
 echo "Deleting the build folder if one exists - takes some time"
-[ -d ~/arcolinuxd-build ] && sudo rm -rf ~/arcolinuxd-build
+[ -d $buildFolder ] && sudo rm -rf $buildFolder
 
 
 echo
@@ -95,12 +102,12 @@ echo "################################################################## "
 tput setaf 2;echo "Phase 4 : Moving files to build folder";tput sgr0
 echo "################################################################## "
 echo
-echo "Copying files and folder to ~/arcolinux-build"
-sudo cp -r ../../arcolinuxd-iso ~/arcolinuxd-build
+echo "Copying files and folder to build folder"
+sudo cp -r ../../arcolinuxd-iso $buildFolder
 
-sudo chmod 750 ~/arcolinuxd-build/archiso/airootfs/etc/sudoers.d
-sudo chmod 750 ~/arcolinuxd-build/archiso/airootfs/etc/polkit-1/rules.d
-sudo chgrp polkitd ~/arcolinuxd-build/archiso/airootfs/etc/polkit-1/rules.d
+sudo chmod 750 $buildFolder/archiso/airootfs/etc/sudoers.d
+sudo chmod 750 $buildFolder/archiso/airootfs/etc/polkit-1/rules.d
+sudo chgrp polkitd $buildFolder/archiso/airootfs/etc/polkit-1/rules.d
 
 echo
 echo "################################################################## "
@@ -124,14 +131,14 @@ echo "Type the number..."
 
 read CHOICE
 
-WDP=$HOME"/arcolinuxd-build/archiso"
+WDP=$buildFolder"/archiso"
 
 case $CHOICE in
 
     1 )
 			echo
 			echo "################################################################## "
-      echo "You have chosen for the linux kernel"
+			echo "You have chosen for the linux kernel"
 			echo "################################################################## "
 			echo
       ;;
@@ -145,16 +152,16 @@ case $CHOICE in
 			REPLACE="calamares-lts"
 			sudo sed -i "s/$FIND/$REPLACE/g" $WDP/packages.x86_64
 
-			FIND="arcolinuxd-calamares-git"
-			REPLACE="arcolinuxd-calamares-lts-git"
+			FIND=$calConfOld
+			REPLACE=$calConfNew
 			sudo sed -i "s/$FIND/$REPLACE/g" $WDP/packages.x86_64
 
 			FIND="#arcolinux-local-repo-git"
 			REPLACE="arcolinux-local-repo-git"
 			sudo sed -i "s/$FIND/$REPLACE/g" $WDP/packages.x86_64
 
-			FIND="iso_name=arcolinuxd"
-			REPLACE="iso_name=arcolinuxd-lts"
+			FIND=$isoNameOld
+			REPLACE=$isoNameNew
 			sudo sed -i "s/$FIND/$REPLACE/g" $WDP/build.sh
       ;;
     * )
@@ -171,16 +178,16 @@ tput setaf 2;echo "Phase 6 : Building the iso";tput sgr0
 echo "################################################################## "
 echo
 
-cd ~/arcolinuxd-build/archiso/
+cd $buildFolder/archiso/
 sudo ./build.sh -v
 
 echo
 echo "################################################################## "
-tput setaf 2;echo "Phase 7 : Copying the iso to ~/ArcoLinuxD-Out";tput sgr0
+tput setaf 2;echo "Phase 7 : Copying the iso to out folder";tput sgr0
 echo "################################################################## "
 echo
-[ -d  ~/ArcoLinuxD-Out ] || mkdir ~/ArcoLinuxD-Out
-cp ~/arcolinuxd-build/archiso/out/arcolinux* ~/ArcoLinuxD-Out
+[ -d  $outFolder ] || mkdir $outFolder
+cp $buildFolder/archiso/out/arcolinux* $outFolder
 
 echo
 echo "################################################################## "
@@ -188,4 +195,4 @@ tput setaf 2;echo "Phase 8 : Making sure we start with a clean slate next time";
 echo "################################################################## "
 echo
 echo "Deleting the build folder if one exists - takes some time"
-[ -d ~/arcolinuxd-build ] && sudo rm -rf ~/arcolinuxd-build
+[ -d $buildFolder ] && sudo rm -rf $buildFolder
