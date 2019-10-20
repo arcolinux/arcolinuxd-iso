@@ -461,7 +461,6 @@ mkinitcpio-openswap
 #downgrade
 #font-manager
 glxinfo
-#google-talkplugin
 #grub-customizer
 #hardcode-fixer-git
 #inxi
