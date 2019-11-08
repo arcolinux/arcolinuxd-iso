@@ -1,5 +1,5 @@
 #!/bin/bash
-#userid 972 error lightdm
+#fix userid 972 error lightdm
 chage -E -1 lightdm
 #fix for mediacodecs vivaldi
 /opt/vivaldi/update-ffmpeg
