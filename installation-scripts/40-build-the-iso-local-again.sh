@@ -103,7 +103,7 @@ tput setaf 2;echo "Phase 4 : Moving files to build folder";tput sgr0
 echo "################################################################## "
 echo
 echo "Copying files and folder to build folder"
-sudo cp -r ../../arcolinuxd-iso $buildFolder
+sudo cp -r ../../arcolinuxd-iso-dev $buildFolder
 
 sudo chmod 750 $buildFolder/archiso/airootfs/etc/sudoers.d
 sudo chmod 750 $buildFolder/archiso/airootfs/etc/polkit-1/rules.d
@@ -114,7 +114,7 @@ echo "################################################################## "
 tput setaf 2;echo "Phase 5 : Cleaning the cache";tput sgr0
 echo "################################################################## "
 echo
-yes | sudo pacman -Scc
+#yes | sudo pacman -Scc
 
 echo
 echo "################################################################## "
