@@ -428,7 +428,7 @@ xcursor-breeze
 #ttf-ms-fonts
 
 #i3
-#i3-gaps-next-git
+#i3-gaps
 
 #icons
 #faba-icon-theme
@@ -515,7 +515,7 @@ arcolinux-arc-themes-nico-git
 #arcolinux-config-git
 #arcolinux-config-gnome-git
 #arcolinux-config-herbstluftwm-git
-#arcolinux-config-i3-git
+#arcolinux-config-i3wm-git
 #arcolinux-config-jwm-git
 #arcolinux-config-lxqt-git
 #arcolinux-config-openbox-git
