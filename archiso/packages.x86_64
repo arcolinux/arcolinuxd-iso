@@ -242,7 +242,7 @@ wpa_supplicant
 ###applications
 #atom
 #chromium
-#compton
+#picom
 #darktable
 #deadbeef
 #dmenu
