@@ -88,8 +88,8 @@ function enableServicesFunc() {
 	systemctl set-default graphical.target
 	systemctl enable NetworkManager.service
 	systemctl enable virtual-machine-check.service
-	systemctl enable reflector.service
-	systemctl enable reflector.timer
+	#systemctl enable reflector.service
+	#systemctl enable reflector.timer
 }
 
 function fixWifiFunc() {
