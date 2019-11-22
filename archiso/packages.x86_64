@@ -577,6 +577,7 @@ arcolinux-xfce-git
 #arcolinux-config-openbox-git
 #arcolinux-config-mate-git
 #arcolinux-config-plasma-git
+#arcolinux-config-plasma-nemesis-git
 #arcolinux-config-qtile-git
 arcolinux-config-xfce-git
 #arcolinux-config-xmonad-git
