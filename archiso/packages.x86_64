@@ -499,7 +499,7 @@ arcolinux-keyring
 #arcolinux-lightdm-gtk-greeter-plasma
 #arcolinux-lightdm-gtk-greeter-settings
 #arcolinux-local-applications-git
-#arcolinux-local-xfce4-git
+arcolinux-local-xfce4-git
 #arcolinux-logo-git
 #arcolinux-lxqt-applications-add-git
 #arcolinux-lxqt-applications-hide-git
