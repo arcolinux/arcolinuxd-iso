@@ -389,6 +389,7 @@ reflector
 #wmctrl
 #xapps
 #xcape
+xdotool
 #xdg-desktop-portal-gtk
 #youtube-dl
 #zenity
