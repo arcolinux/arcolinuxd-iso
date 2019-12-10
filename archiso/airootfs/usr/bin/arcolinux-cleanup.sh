@@ -8,5 +8,6 @@ rm -r /etc/systemd/system/etc-pacman.d-gnupg.mount
 rm /root/{.automated_script.sh,.zlogin}
 rm /etc/mkinitcpio-archiso.conf
 rm -r /etc/initcpio
+rm -rf /etc/lightdm
 rm /usr/bin/arcolinux-all-cores.sh
 rm /usr/bin/arcolinux-cleanup.sh
