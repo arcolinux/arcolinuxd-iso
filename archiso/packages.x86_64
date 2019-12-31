@@ -316,7 +316,7 @@ cronie
 #dconf-editor
 dmidecode
 #evince
-#expac
+expac
 #file-roller
 #filezilla
 git
