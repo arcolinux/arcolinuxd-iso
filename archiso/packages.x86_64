@@ -347,7 +347,7 @@ laptop-detect
 lsb-release
 mlocate
 #nomacs
-oh-my-zsh-git
+#oh-my-zsh-git
 #p7zip
 #plank
 #playerctl
@@ -614,9 +614,11 @@ arcolinux-config-xfce-git
 ###########################################################################
 
 arco-calamares
-#arco-calamares-dev
 #arco-calamares-comp
+#arco-calamares-dev
+#arco-calamares-next
 arcolinux-system-installation-git
+#arcolinux-config-live-session-git
 
 ###########################################################################
 #                                CALAMARES DEPENDENCIES
@@ -630,6 +632,7 @@ ki18n
 kservice
 kwidgetsaddons
 kpmcore
+#kpmcore-git
 boost-libs
 libpwquality
 squashfs-tools
@@ -663,9 +666,11 @@ qt5-xmlpatterns
 #arco-calamares-config-git
 #arco-calamares-config-comp-git
 #arco-calamares-config-dev-git
+#arco-calamares-config-next-git
 arcod-calamares-config-git
 #arcod-calamares-config-comp-git
 #arcod-calamares-config-dev-git
+#arcod-calamares-config-next-git
 
 ###########################################################################
 #                                DESKTOP SPECIFIC
