@@ -256,7 +256,6 @@ numlockx
 #scrot
 #simplescreenrecorder
 termite
-#tint2
 #variety
 #vlc
 
@@ -349,7 +348,7 @@ mlocate
 reflector
 #redshift
 #rofi
-#rxvt-unicode
+rxvt-unicode
 #simple-scan
 #shotwell
 #speedtest-cli
@@ -656,7 +655,7 @@ arcod-calamares-config-git
 #arcod-calamares-config-next-git
 
 ###########################################################################
-#                                DISPLAY MANAGER 
+#                                DISPLAY MANAGER
 ###########################################################################
 
 ###lightdm
@@ -664,7 +663,7 @@ arcod-calamares-config-git
 lightdm
 
 ###########################################################################
-#                         PICOM OR COMPTON 
+#                         PICOM OR COMPTON
 ###########################################################################
 
 #picom
@@ -694,6 +693,7 @@ lightdm
 #obconf
 #openbox
 #perl-linux-desktopfiles
+#tint2
 #xcape
 
 ###lx-applications
