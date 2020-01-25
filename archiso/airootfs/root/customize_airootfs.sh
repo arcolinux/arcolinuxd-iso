@@ -121,7 +121,6 @@ function getNewMirrorCleanAndUpgrade() {
     pacman -Syyu --noconfirm
 }
 
-
 deleteXfceWallpapers
 layout deleteXfceWallpapers
 umaskFunc
