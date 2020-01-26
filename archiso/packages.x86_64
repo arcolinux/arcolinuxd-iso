@@ -422,9 +422,7 @@ glxinfo
 #grub-customizer
 #hardcode-fixer-git
 #inxi
-#menulibre
 #mintstick-git
-#mugshot
 neofetch
 #numix-gtk-theme-git
 #pamac-aur
@@ -667,6 +665,13 @@ lightdm
 ###########################################################################
 
 #picom
+
+###########################################################################
+#                         GENERAL DESKTOP RELATED
+###########################################################################
+
+#mugshot
+#menulibre
 
 ###########################################################################
 #                         ARCOLINUX ISO SPECIFIC
