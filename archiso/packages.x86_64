@@ -337,7 +337,7 @@ mlocate
 #plank
 #playerctl
 #polkit
-#polkit-gnome
+polkit-gnome
 #python2-dbus
 #python2-xdg
 #qt4
