@@ -724,7 +724,7 @@ lightdm
 
 ### xfce4 group content
 # https://www.archlinux.org/groups/x86_64/xfce4/
-#exo
+exo
 #garcon
 thunar
 #thunar-volman
