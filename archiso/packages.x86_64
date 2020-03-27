@@ -198,7 +198,7 @@ wpa_supplicant
 #mtpfs
 #udiskie
 #udisks2
-#xdg-user-dirs
+xdg-user-dirs
 
 ###printers
 #cups
@@ -235,7 +235,7 @@ wpa_supplicant
 #dmenu
 #evolution
 feh
-firefox
+#firefox
 #flashplugin
 #galculator
 #geany
@@ -247,7 +247,7 @@ gmrun
 #inkscape
 #libreoffice-fresh
 lshw
-meld
+#meld
 #nitrogen
 numlockx
 #pragha
@@ -387,7 +387,7 @@ xdotool
 #breeze-obsidian-cursor-theme
 #oxy-neon
 bibata-cursor-theme
-breeze
+#breeze
 #xcursor-vanilla-dmz-aa
 
 ###fonts
@@ -432,12 +432,12 @@ neofetch
 #python-pyparted
 #python-pywal
 #screenkey-git
-sublime-text-dev
-the_platinum_searcher-bin
+#sublime-text-dev
+#the_platinum_searcher-bin
 #tmux
 trizen
-#urxvt-perls
-#urxvt-resize-font-git
+urxvt-perls
+urxvt-resize-font-git
 #wttr
 #yad
 #yakuake
