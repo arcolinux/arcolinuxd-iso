@@ -22,14 +22,13 @@ function umaskFunc() {
     umask 022
 }
 
-#function localeGenFunc() {
-    # Set locales
-    #sed -i 's/^#\(en_US\.UTF-8\)/\1/' /etc/locale.gen
-    #export LANGUAGE=en_US.UTF-8
-    #export LANG=en_US.UTF-8
-    #export LC_ALL=en_US.UTF-8
-    #locale-gen
-#}
+function localeGenFunc() {
+    sed -i 's/^#\(en_US\.UTF-8\)/\1/' /etc/locale.gen
+    export LANGUAGE=en_US.UTF-8
+    export LANG=en_US.UTF-8
+    export LC_ALL=en_US.UTF-8
+    locale-gen
+}
 
 function setTimeZoneAndClockFunc() {
     # Timezone
@@ -125,8 +124,8 @@ deleteXfceWallpapers
 layout deleteXfceWallpapers
 umaskFunc
 layout umaskFunc
-#localeGenFunc
-#layout localeGenFunc
+localeGenFunc
+layout localeGenFunc
 setTimeZoneAndClockFunc
 layout setTimeZoneAndClockFunc
 editOrCreateConfigFilesFunc
