@@ -16,6 +16,3 @@ for i in `ls /home/`; do rm -rf /home/$i/.local/share/xfce4 || exit 0; done
 pacman -Rs exo thunar xfconf libxfce4ui libxfce4util --noconfirm
 rm /usr/local/bin/arcolinux-all-cores.sh
 rm /usr/local/bin/arcolinux-cleanup.sh
-echo "##################################################################"
-echo "##############     arcolinux-cleanup.sh completed  ###############"
-echo "##################################################################"
