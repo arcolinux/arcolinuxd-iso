@@ -26,7 +26,7 @@ function localeGenFunc() {
     sed -i 's/^#\(en_US\.UTF-8\)/\1/' /etc/locale.gen
     export LANGUAGE=en_US.UTF-8
     export LANG=en_US.UTF-8
-    export LC_ALL=en_US.UTF-8
+    #export LC_ALL=en_US.UTF-8
     locale-gen
 }
 
@@ -87,8 +87,7 @@ function enableServicesFunc() {
 	systemctl set-default graphical.target
 	systemctl enable NetworkManager.service
 	systemctl enable virtual-machine-check.service
-	#systemctl enable reflector.service
-	#systemctl enable reflector.timer
+	systemctl enable update-mirrors.service
 }
 
 function fixWifiFunc() {
