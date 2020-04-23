@@ -233,19 +233,19 @@ xdg-user-dirs
 #deadbeef
 #dmenu
 #evolution
-feh
+#feh
 #firefox
 #flashplugin
 #galculator
 #geany
 #gimp
-gmrun
+#gmrun
 #gsimplecal
 #guvcview
 #imagemagick
 #inkscape
 #libreoffice-fresh
-lshw
+#lshw
 #meld
 #nitrogen
 numlockx
@@ -298,7 +298,7 @@ bash-completion
 cronie
 #dconf-editor
 dex
-dmidecode
+#dmidecode
 #evince
 expac
 #file-roller
@@ -334,7 +334,7 @@ mlocate
 #p7zip
 #plank
 #playerctl
-#polkit
+polkit
 polkit-gnome
 #python2-dbus
 #python2-xdg
@@ -364,8 +364,8 @@ rxvt-unicode
 #webkit2gtk
 #wmctrl
 #xapps
-xdo
-xdotool
+#xdo
+#xdotool
 #xdg-desktop-portal-gtk
 #youtube-dl
 #zenity
@@ -413,7 +413,7 @@ surfn-icons-git
 mkinitcpio-openswap
 
 ###utilities-repo
-archiso
+#archiso
 #aurvote-git
 #conky-lua-archers
 #downgrade
@@ -477,9 +477,9 @@ arcolinux-keyring
 #arcolinux-lightdm-gtk-greeter-settings
 #arcolinux-local-applications-git
 #arcolinux-local-applications-plasma-hide-git
-arcolinux-local-xfce4-git
+#arcolinux-local-xfce4-git
 #arcolinux-logo-git
-arcolinux-logout-git
+#arcolinux-logout-git
 #arcolinux-lxqt-applications-add-git
 #arcolinux-lxqt-applications-hide-git
 arcolinux-mirrorlist-git
@@ -509,7 +509,7 @@ arcolinuxd-system-config-git
 #arcolinux-termite-themes-git
 #arcolinux-tint2-git
 #arcolinux-tint2-themes-git
-arcolinux-tweak-tool-git
+#arcolinux-tweak-tool-git
 #arcolinux-variety-git
 arcolinux-wallpapers-git
 #arcolinux-wallpapers-lxqt-dual-git
