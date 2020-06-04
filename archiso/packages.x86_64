@@ -253,7 +253,7 @@ numlockx
 #scrot
 #simplescreenrecorder
 termite
-#variety
+variety
 #vlc
 
 ###conky
@@ -478,6 +478,7 @@ arcolinux-keyring
 #arcolinux-local-xfce4-git
 #arcolinux-logo-git
 #arcolinux-logout-git
+#arcolinux-logout-themes-git
 #arcolinux-lxqt-applications-add-git
 #arcolinux-lxqt-applications-hide-git
 arcolinux-mirrorlist-git
@@ -508,7 +509,7 @@ arcolinuxd-system-config-git
 #arcolinux-tint2-git
 #arcolinux-tint2-themes-git
 #arcolinux-tweak-tool-git
-#arcolinux-variety-git
+arcolinux-variety-git
 arcolinux-wallpapers-git
 #arcolinux-wallpapers-lxqt-dual-git
 #arcolinux-xfce4-panel-profiles-git
