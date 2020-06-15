@@ -87,7 +87,7 @@ function enableServicesFunc() {
 	systemctl set-default graphical.target
 	systemctl enable NetworkManager.service
 	systemctl enable virtual-machine-check.service
-	systemctl enable update-mirrors.service
+	systemctl enable update-mirror.service
 }
 
 function fixWifiFunc() {
