@@ -430,7 +430,7 @@ mkinitcpio-openswap
 #downgrade
 #font-manager-git
 #glxinfo
-gitahead-bin
+#gitahead-bin
 #grub-customizer
 #hardcode-fixer-git
 #inxi
