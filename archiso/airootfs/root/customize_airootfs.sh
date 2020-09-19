@@ -124,6 +124,8 @@ function initkeysFunc() {
     #sudo pacman-key --refresh-keys
     #brad
     pacman-key --lsign-key 18064BF445855549
+    #raniel
+    pacman-key --lsign-key 7EC1A5550718AB89
 }
 
 function getNewMirrorCleanAndUpgrade() {
