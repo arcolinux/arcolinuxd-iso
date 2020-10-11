@@ -17,6 +17,9 @@
 # set our parameters
 buildFolder="$HOME/arcolinuxd-build"
 outFolder="$HOME/ArcoLinuxD-Out"
+isoFolder="arcolinuxd-iso"
+iso_label="arcolinuxd-v20.11.7"
+archisoversion=$(sudo pacman -Q archiso)
 
 echo
 echo "################################################################## "
