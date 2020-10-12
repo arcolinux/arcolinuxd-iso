@@ -14,23 +14,38 @@
 #   DO NOT JUST RUN THIS. EXAMINE AND JUDGE. RUN AT YOUR OWN RISK.
 #
 ##################################################################################################################
-# set our parameters
-buildFolder="$HOME/arcolinuxd-build"
-outFolder="$HOME/ArcoLinuxD-Out"
-isoFolder="arcolinuxd-iso"
-iso_label="arcolinuxd-v20.11.7"
-archisoversion=$(sudo pacman -Q archiso)
+echo
+echo "################################################################## "
+tput setaf 2
+echo "Phase 1 : "
+echo "- General parameters"
+tput sgr0
+echo "################################################################## "
+echo
 
-echo
-echo "################################################################## "
-tput setaf 2;echo "Phase 1 : get the latest bashrc from github";tput sgr0
-echo "################################################################## "
-echo
-#echo "Removing old files/folders from /etc/skel"
-#rm -rf ../archiso/airootfs/etc/skel/.* 2> /dev/null
-echo "getting .bashrc from arcolinux-root"
-wget https://raw.githubusercontent.com/arcolinux/arcolinux-root/master/etc/skel/.bashrc-latest -O ../archiso/airootfs/etc/skel/.bashrc
-echo ".bashrc copied to /etc/skel"
+	#Let us set the desktop"
+	#First letter of desktop is small letter
+
+	desktop="xfce"
+	lightdmDesktop="xfce"
+
+	arcolinuxVersion='v20.11.7'
+
+	isoLabel='arcolinuxd-'$arcolinuxVersion'-x86_64.iso'
+
+	# setting of the general parameters
+	buildFolder=$HOME"/arcolinuxd-build"
+	outFolder=$HOME"/ArcoLinuxD-Out"
+	archisoVersion=$(sudo pacman -Q archiso)
+	
+	echo "################################################################## "		
+	echo "Building the desktop                   : "$desktop
+	echo "Bulding version                        : "$arcolinuxVersion
+	echo "Iso label                              : "$isoLabel
+	echo "Do you have the right archiso version? : "$archisoVersion
+	echo "Build folder                           : "$buildFolder
+	echo "Out folder                             : "$outFolder
+	echo "################################################################## "		
 
 echo
 echo "################################################################## "
