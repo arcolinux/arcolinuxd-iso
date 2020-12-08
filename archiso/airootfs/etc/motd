@@ -1,0 +1,16 @@
+To install [38;2;23;147;209mArcoLinux[0m follow the installation guide:
+https://arcolinuxd.com/installation
+
+We recommend you use a [38;2;23;147;209mLAN cable[0m as it is by far the easiest way to connect to the internet.
+For Wi-Fi, authenticate to the wireless network using the [38;2;23;147;209mnmtui[0m utility.
+
+Ethernet (LAN) and Wi-Fi connections using DHCP should work automatically.
+
+After connecting to the internet, type '[38;2;23;147;209mmirror[0m' to update the Arch Linux servers.
+After connecting to the internet, type '[38;2;23;147;209mupdate[0m' to install newer packages.
+After installing a desktop or twm, activate your display manager.
+E.g. [38;2;23;147;209msudo systemctl enable lightdm.service[0m
+Then it is time to
+[38;2;23;147;209msudo reboot[0m
+Learn, enjoy and have fun with ArcoLinux.
+----------------------------------------------
