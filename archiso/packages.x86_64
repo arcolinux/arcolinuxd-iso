@@ -367,7 +367,7 @@ rxvt-unicode
 #simple-scan
 #shotwell
 #speedtest-cli
-telegram-desktop
+#telegram-desktop
 #timeshift
 #tlp
 #tree
@@ -575,6 +575,7 @@ arcolinux-xfce-git
 #                           ARCOLINUX CONFIG FOLDER
 ###########################################################################
 
+#arcolinux-config-all-desktops-git
 #arcolinux-config-awesome-git
 #arcolinux-config-bspwm-git
 #arcolinux-config-budgie-git
