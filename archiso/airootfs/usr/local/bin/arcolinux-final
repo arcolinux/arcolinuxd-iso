@@ -1,6 +1,7 @@
 #!/bin/bash
+echo
 echo "#################################"
-echo "Start arcolinux-final.sh"
+echo "Start arcolinux-final"
 echo "#################################"
 
 echo "Permissions of important folders"
@@ -47,7 +48,7 @@ echo "#################################"
 chmod -v 750 /root
 
 echo "#################################"
-echo "End arcolinux-final.sh"
+echo "End arcolinux-final"
 echo "#################################"
-rm /usr/local/bin/arcolinux-all-cores.sh
-rm /usr/local/bin/arcolinux-final.sh
+rm /usr/local/bin/arcolinux-all-cores
+rm /usr/local/bin/arcolinux-final
