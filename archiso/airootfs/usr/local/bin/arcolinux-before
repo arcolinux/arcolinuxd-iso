@@ -14,12 +14,13 @@ echo "#################################"
 mkdir -p /boot/grub/themes
 cp -Rf /usr/share/grub/themes/Vimix /boot/grub/themes/
 
-echo "Remove /etc/sddm.conf.d/autologin.conf"
-rm /etc/sddm.conf.d/autologin.conf
-
 echo "Changing into our own linux.preset"
 echo "#################################"
 mv /etc/mkinitcpio.d/arcolinux /etc/mkinitcpio.d/linux.preset
+
+echo "Removing /etc/sddm.conf"
+echo "#################################"
+rm -f /etc/sddm.conf
 
 echo "#################################"
 echo "Extra for ArcoLinuxD"
@@ -30,7 +31,6 @@ rm -f /etc/systemd/system/display-manager.service
 #cleanup xfce
 for i in `ls /home/`; do rm -rf /home/$i/.config/* || exit 0; done
 for i in `ls /home/`; do rm -rf /home/$i/.local/share/xfce4 || exit 0; done
-pacman -Rs xfce4-settings xfce4-session xfce4-panel xfdesktop xfwm4 thunar exo garcon libxfce4ui xfconf libxfce4util exo --noconfirm
 
 echo "#################################"
 echo "End arcolinux-before"

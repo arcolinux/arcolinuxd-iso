@@ -728,7 +728,7 @@ accountsservice
 ###sddm
 sddm
 arcolinux-sddm-sugar-candy-git
-
+#arcolinux-sddm-breeze-git
 
 ###########################################################################
 #                         PICOM OR COMPTON
