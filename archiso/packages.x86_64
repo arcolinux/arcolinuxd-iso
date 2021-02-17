@@ -21,7 +21,7 @@ diffutils
 dmraid
 dnsmasq
 dnsutils
-dosfstools
+#dosfstools
 edk2-shell
 efibootmgr
 ethtool
@@ -843,3 +843,6 @@ xfwm4
 #                                ISO SPECIFIC
 ###########################################################################
 #polybar
+
+#fix for new version
+dosfstools
