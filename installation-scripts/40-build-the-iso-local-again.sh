@@ -191,8 +191,8 @@ echo
 	#Setting variables
 
 	#profiledef.sh
-	oldname1='iso_name=arcolinuxd'
-	newname1='iso_name=arcolinuxd'
+	oldname1='iso_name="arcolinuxd'
+	newname1='iso_name="arcolinuxd'
 
 	oldname2='iso_label="arcolinuxd'
 	newname2='iso_label="arcolinuxd'
