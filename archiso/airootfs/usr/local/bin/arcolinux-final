@@ -47,6 +47,13 @@ echo "Permission of root"
 echo "#################################"
 chmod -v 750 /root
 
+# Do not do here - extra /home/root folder
+#echo "Hardcode-fixer" 
+#echo "#################################"
+#hardcode-fixer
+
+/usr/local/bin/arcolinux-virtual-machine-check
+
 echo "#################################"
 echo "End arcolinux-final"
 echo "#################################"
