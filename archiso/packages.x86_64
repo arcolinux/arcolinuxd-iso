@@ -311,7 +311,7 @@ noto-fonts
 #ttf-bitstream-vera
 ttf-dejavu
 #ttf-droid
-#ttf-hack
+ttf-hack
 #ttf-inconsolata
 #ttf-liberation
 #ttf-roboto
