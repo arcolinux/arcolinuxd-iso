@@ -11,7 +11,7 @@ arch-install-scripts
 base
 bind-tools
 #brltty
-#broadcom-wl
+broadcom-wl-dkms
 btrfs-progs
 clonezilla
 #cloud-init
@@ -913,5 +913,3 @@ xfwm4
 #                                ISO SPECIFIC
 ###########################################################################
 chaotic-keyring
-
-broadcom-wl-dkms
