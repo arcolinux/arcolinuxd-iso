@@ -22,7 +22,8 @@ mv /etc/mkinitcpio.d/arcolinux /etc/mkinitcpio.d/linux.preset
 echo "Removing /etc/sddm.conf"
 echo "#################################"
 rm -f /etc/sddm.conf
-rm -rf /etc/sddm.conf.d
+# DO NOT REMOVE - CALAMARES Reference
+#rm -rf /etc/sddm.conf.d
 
 echo "#################################"
 echo "Extra for ArcoLinuxD"
