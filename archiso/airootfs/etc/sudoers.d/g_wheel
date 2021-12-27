@@ -1,1 +1,2 @@
 %wheel ALL=(ALL) NOPASSWD: ALL
+liveuser ALL=(ALL) NOPASSWD: ALL

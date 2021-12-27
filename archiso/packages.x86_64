@@ -4,26 +4,26 @@
 
 ###archiso
 alsa-utils
-amd-ucode
+#amd-ucode
 arch-install-scripts
 #archinstall
 #b43-fwcutter
 base
 bind-tools
 #brltty
-broadcom-wl-dkms
+#broadcom-wl-dkms
 btrfs-progs
-clonezilla
+#clonezilla
 #cloud-init
 crda
-cryptsetup
+#cryptsetup
 #darkhttpd
-ddrescue
+#ddrescue
 dhclient
 #dhcpcd
 diffutils
-dmraid
-dnsmasq
+#dmraid
+#dnsmasq
 dosfstools
 e2fsprogs
 edk2-shell
@@ -33,41 +33,42 @@ ethtool
 exfatprogs
 f2fs-tools
 fatresize
-fsarchiver
+#fsarchiver
 gnu-netcat
 gpart
 gpm
 gptfdisk
 #grml-zsh-config
-grub
 hdparm
 intel-ucode
 ipw2100-fw
 ipw2200-fw
 irssi
-#iw
+iw
 #iwd
-jfsutils
+#jfsutils
 #kitty-terminfo
 less
 #lftp
 libfido2
 libusb-compat
 linux
-linux-atm
+linux-lts
 linux-firmware
+linux-zen
 #livecd-sounds
 lsscsi
 lvm2
 #lynx
 man-db
 man-pages
-mc
+#mc
 mdadm
 memtest86+
 mkinitcpio
 mkinitcpio-archiso
 mkinitcpio-nfs-utils
+mkinitcpio-firmware
 modemmanager
 mtools
 nano
@@ -80,7 +81,7 @@ ntfs-3g
 nvme-cli
 openconnect
 openssh
-openvpn
+#openvpn
 partclone
 parted
 partimage
@@ -89,9 +90,9 @@ ppp
 pptpclient
 pv
 qemu-guest-agent
-refind
+#refind
 reflector
-reiserfsprogs
+#reiserfsprogs
 rp-pppoe
 rsync
 rxvt-unicode-terminfo
@@ -99,7 +100,7 @@ screen
 sdparm
 sg3_utils
 smartmontools
-sof-firmware
+#sof-firmware
 squashfs-tools
 sudo
 syslinux
@@ -113,90 +114,91 @@ udftools
 usb_modeswitch
 usbmuxd
 usbutils
-vim
+#vim
 #virtualbox-guest-utils-nox
 vpnc
-wireless-regdb
+#wireless-regdb
 wireless_tools
 wpa_supplicant
 wvdial
-xfsprogs
+#xfsprogs
 xl2tpd
 
 ###archiso-extra
-aic94xx-firmware
 dialog
-dnsutils
-linux-headers
-logrotate
+#dnsutils
+#linux-headers
+#logrotate
 ntp
 r8168-dkms
-upd72020x-fw
-wd719x-firmware
 wget
 
 ###xorg
 xorg-server
-xorg-apps
+#xorg-apps
 xorg-xinit
 #xterm
 
 ###video
 #xorg-drivers
 #xorg-drivers includes
-xf86-input-elographics
-xf86-input-evdev
+#xf86-input-elographics
+#xf86-input-evdev
 xf86-input-libinput
-#xf86-input-synaptics
-xf86-input-vmmouse
-xf86-input-void
-xf86-video-amdgpu
-xf86-video-ati
+xf86-input-synaptics
+#xf86-input-vmmouse
+#xf86-input-void
+#xf86-video-amdgpu
+#xf86-video-ati
 #xf86-video-dummy
-xf86-video-fbdev
-#xf86-video-intel
-xf86-video-nouveau
-xf86-video-openchrome
+#xf86-video-fbdev
+xf86-video-intel
+#xf86-video-nouveau
+#xf86-video-openchrome
 #xf86-video-qxl
-xf86-video-vesa
-xf86-video-vmware
+#xf86-video-vesa
+#xf86-video-vmware
 #xf86-video-voodoo
 #xf86-video-sisusb
-mesa
+mesa-vdpau
 
 ###hardware video support
 #bumblebee
 #optimus-manager
 #optimus-manager-qt
-nvidia-dkms
-nvidia-utils
-nvidia-settings
-#libva-intel-driver
-#libva-vdpau-driver
+#nvidia-dkms
+#nvidia-utils
+#nvidia-settings
+libva-intel-driver
+libva-vdpau-driver
+libva-mesa-driver
+libvdpau-va-gl
+intel-media-driver
 mesa-utils
-#mesa-vdpau
-#opencl-mesa
+mesa-vdpau
+opencl-mesa
 #primus
 #vulkan-intel
 #vulkan-radeon
 
-###base and base-devel
-base
+## base-devel
 base-devel
 
 ###virtual box or vmware
-open-vm-tools
+#open-vm-tools
 #virtualbox-guest-modules-arch
-virtualbox-guest-utils
+#virtualbox-guest-utils
 
 ###packages for dual boot
-os-prober
+os-prober-btrfs
+grub-btrfs
+btrfs-progs
 
 ###LUKS encryption
-cryptsetup
+#cryptsetup
 
 ###audio
-#alsa-firmware
+alsa-firmware
 #alsa-plugins
 #alsa-lib
 #alsa-utils
@@ -221,15 +223,15 @@ cryptsetup
 ###network
 #avahi
 #nss-mdns
-mobile-broadband-provider-info
+#mobile-broadband-provider-info
 modemmanager
 networkmanager
-network-manager-applet
-networkmanager-openconnect
-networkmanager-openvpn
-networkmanager-pptp
-networkmanager-vpnc
-openresolv
+#network-manager-applet
+#networkmanager-openconnect
+#networkmanager-openvpn
+#networkmanager-pptp
+#networkmanager-vpnc
+#openresolv
 #samba
 
 ###file management
@@ -242,7 +244,7 @@ openresolv
 #mtpfs
 #udiskie
 #udisks2
-xdg-user-dirs
+#xdg-user-dirs
 
 ###printers
 #cups
@@ -279,7 +281,7 @@ xdg-user-dirs
 #dmenu
 #evolution
 #feh
-#firefox
+firefox
 #flashplugin
 #galculator
 #geany
@@ -293,12 +295,12 @@ xdg-user-dirs
 #lshw
 #meld
 #nitrogen
-numlockx
+#numlockx
 #pragha
-#qbittorrent
+qbittorrent
 #scrot
 #simplescreenrecorder
-termite
+#termite
 #variety
 #vlc
 
@@ -318,7 +320,7 @@ ttf-dejavu
 #ttf-droid
 ttf-hack
 #ttf-inconsolata
-#ttf-liberation
+ttf-liberation
 #ttf-roboto
 #ttf-roboto-mono
 #ttf-ubuntu-font-family
@@ -330,64 +332,64 @@ ttf-hack
 
 ###themes
 #adapta-gtk-theme
-arc-gtk-theme
+#arc-gtk-theme
 #arc-darkest-theme-git
 #kvantum-qt5
 #openbox-arc-git
 
 ###utilities
-arandr
-asciinema
-bash-completion
+#arandr
+#asciinema
+#bash-completion
 #baobab
-bat
+#bat
 #catfish
 #cronie
 #dconf-editor
-dex
+#dex
 #discord
 #dmidecode
-duf-bin
-edid-decode-git
+#duf-bin
+#edid-decode-git
 #evince
-expac
+#expac
 #file-roller
 #filezilla
 git
-gksu
+#gksu
 #glances
 #gnome-disk-utility
 #gnome-keyring
 #gnome-screenshot
 #gnome-software
 #gnome-software-packagekit-plugin
-gparted
+#gparted
 #gpick
 #gtop
 #hardinfo
 #hddtemp
 #htop
 #hunspell
-#hunspell-en_US
+hunspell-en_US
 hw-probe
 #hyphen
-#hyphen-en
+hyphen-en
 #grsync
 #intltool
 #iw
 #jsoncpp
 #libmtp
-laptop-detect
+#laptop-detect
 lsb-release
-mlocate
+#mlocate
 #nomacs
 #oh-my-zsh-git
-#p7zip
+p7zip
 pkgfile
 #plank
 #playerctl
 polkit
-polkit-gnome
+#polkit-gnome
 #python2-dbus
 ##python2-xdg
 #qt4
@@ -397,21 +399,21 @@ polkit-gnome
 #qt5-webkit
 #powertop
 #redshift
-ripgrep
+#ripgrep
 #rofi
 rxvt-unicode
 #simple-scan
 #shotwell
 #speedtest-cli-git
 #telegram-desktop
-#timeshift
+timeshift
 #tlp
 #tree
 #ufw
 #gufw
-#unace
-#unrar
-#unzip
+unace
+unrar
+unzip
 #vnstat
 #w3m
 #webkit2gtk
@@ -440,10 +442,9 @@ rxvt-unicode
 #breeze-cursors-lh
 #breeze-obsidian-cursor-theme
 #oxy-neon
-bibata-cursor-theme-bin
+#bibata-cursor-theme-bin
 #breeze
 #xcursor-vanilla-dmz-aa
-
 ###fonts
 #ttf-font-awesome
 #ttf-ms-fonts
@@ -456,8 +457,8 @@ bibata-cursor-theme-bin
 #numix-icon-theme-git
 #numix-circle-icon-theme-git
 #paper-icon-theme
-sardi-icons
-surfn-icons-git
+#sardi-icons
+#surfn-icons-git
 #surfn-arc-breeze-icons-git
 #zafiro-icon-theme
 
@@ -465,11 +466,11 @@ surfn-icons-git
 #b43-firmware
 
 ###tools
-mkinitcpio-openswap
+#mkinitcpio-openswap
 
 ###utilities-repo
-alacritty
-appstream
+#alacritty
+#appstream
 #archiso
 #conky-lua-archers
 #downgrade
@@ -480,11 +481,11 @@ appstream
 #hardcode-fixer-git
 #inxi
 #mintstick-git
-neofetch
+#neofetch
 #numix-gtk-theme-git
 #pamac-all
 #pamac-aur
-paru-bin
+#paru-bin
 #peek
 #pulseaudio-equalizer-ladspa
 #pyakm
@@ -494,15 +495,15 @@ paru-bin
 #screenkey-git
 #sublime-text-4
 #the_platinum_searcher-bin
-the_silver_searcher
+#the_silver_searcher
 #trizen
-urxvt-fullscreen
-urxvt-perls
-urxvt-resize-font-git
+#urxvt-fullscreen
+#urxvt-perls
+#urxvt-resize-font-git
 #wttr
 #yad
 #yakuake
-yay-bin
+#yay-bin
 
 ###########################################################################
 #                               GAMES
@@ -517,7 +518,7 @@ yay-bin
 #                           ARCOLINUX FOLDER
 ###########################################################################
 
-arcolinux-alacritty-git
+#arcolinux-alacritty-git
 #arcolinux-arc-kde
 #arcolinux-arc-themes-2021-git
 #arcolinux-bin-git
@@ -531,9 +532,9 @@ arcolinux-alacritty-git
 #arcolinux-faces-git
 #arcolinux-fonts-git
 #arcolinux-geany-git
-arcolinux-grub-theme-vimix-git
+#arcolinux-grub-theme-vimix-git
 #arcolinux-gtk3-arcolinux-candy-beauty-git
-arcolinux-gtk3-sardi-arc-git
+#arcolinux-gtk3-sardi-arc-git
 #arcolinux-gtk3-surfn-arc-git
 #arcolinux-gtk3-surfn-arc-breeze-git
 #arcolinux-gtk3-surfn-plasma-dark-git
@@ -555,7 +556,7 @@ arcolinux-keyring
 #arcolinux-lxqt-applications-hide-git
 #arcolinux-meta-logout
 arcolinux-mirrorlist-git
-arcolinux-neofetch-git
+#arcolinux-neofetch-git
 #arcolinux-nitrogen-git
 #arcolinux-oblogout
 #arcolinux-oblogout-themes-git
@@ -563,7 +564,7 @@ arcolinux-neofetch-git
 #arcolinux-obmenu-generator-minimal-git
 #arcolinux-obmenu-generator-xtended-git
 #arcolinux-openbox-themes-git
-arcolinux-paru-git
+#arcolinux-paru-git
 #arcolinux-pipemenus-git
 #arcolinux-plank-git
 #arcolinux-plank-themes-git
@@ -587,7 +588,7 @@ arcolinux-systemd-services-git
 #arcolinux-variety-git
 #arcolinux-variety-autostart-git
 #arcolinux-volumeicon-git
-arcolinux-wallpapers-git
+#arcolinux-wallpapers-git
 #arcolinux-wallpapers-dual-git
 #arcolinux-xfce-panel-profiles-git
 #arcolinux-xmobar-git
@@ -627,7 +628,7 @@ arcolinux-wallpapers-git
 #arcolinux-spectrwm-git
 #arcolinux-ukui-git
 #arcolinux-wmderland-git
-arcolinux-xfce-git
+#arcolinux-xfce-git
 #arcolinux-xmonad-polybar-git
 #arcolinux-xmonad-xmobar-git
 
@@ -798,7 +799,7 @@ accountsservice
 ###sddm
 sddm
 #arcolinux-sddm-sugar-candy-git
-arcolinux-sddm-simplicity-git
+#arcolinux-sddm-simplicity-git
 #sddm-config-editor-git
 
 ###########################################################################
@@ -857,21 +858,21 @@ arcolinux-sddm-simplicity-git
 ###########################################################################
 
 ### xfce4 group content
-# https://www.archlinux.org/groups/x86_64/xfce4/
-exo
+## https://www.archlinux.org/groups/x86_64/xfce4/
+#exo
 #garcon
-thunar
+#thunar
 #thunar-volman
 #tumbler
 #xfce4-appfinder
-xfce4-panel
+#xfce4-panel
 #xfce4-power-manager
-xfce4-session
-xfce4-settings
+#xfce4-session
+#xfce4-settings
 #xfce4-terminal
 #xfconf
-xfdesktop
-xfwm4
+#xfdesktop
+#xfwm4
 #xfwm4-themes
 
 ### xfce4-goodies group content
@@ -921,3 +922,74 @@ xfwm4
 #                                ISO SPECIFIC
 ###########################################################################
 chaotic-keyring
+chaotic-mirrorlist
+plasma-desktop
+plasma-nm
+plasma-pa
+dolphin
+konsole
+kate
+kcalc
+ksystemlog
+ksysguard
+kinfocenter
+kde-gtk-config
+k3b
+kscreen
+breeze-gtk
+beautyline
+ark
+pamac-aur
+sddm-kcm
+okular
+smplayer-themes
+mellowplayer
+ventoy-bin
+thunderbird
+xdman
+zram-generator
+timeshift-autosnap
+unarchiver
+unarj
+transcode
+alsa-firmware
+ananicy-cpp
+ananicy-rules-git
+caprine
+calligra cdrdao
+cdrtools
+cdparanoia
+linux-wifi-hotspot
+kernel-modules-hook
+kdegraphics-thumbnailers
+kdegraphics-mobipocket
+memavaild
+nohang
+pipewire-support
+partitionmanager
+plasma-firewall
+plasma5-applets-eventcalendar
+preload
+prelockd
+poppler-data
+powerdevil
+rebuild-detector
+spectacle
+starship
+stacer
+profile-sync-daemon
+gstreamer-meta
+garuda-hooks
+garuda-boot-options
+garuda-assistant
+garuda-downloader
+find-the-command
+ffmpegthumbs
+emovix
+dvd+rw-tools
+ebook-tools
+irqbalance
+haveged
+firefox-i18n-en-us
+mkinitcpio-openswap
+xcursor-sweet
