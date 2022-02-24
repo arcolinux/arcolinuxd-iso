@@ -45,7 +45,7 @@ echo
 	# 2. change the file personal-repo to reflect your repo
 	# 3. add your applications to the file packages-personal-repo.x86_64
 
-	personalrepo=true
+	personalrepo=false
 
 	echo "################################################################## "
 	echo "Building the desktop                   : "$desktop
