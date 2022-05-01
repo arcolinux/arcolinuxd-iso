@@ -29,12 +29,12 @@ echo
 	desktop="xfce"
 	dmDesktop="xfce"
 
-	arcolinuxVersion='v22.06.01'
+	arcolinuxVersion='v22.06.02'
 
 	isoLabel='arcolinuxd-'$arcolinuxVersion'-x86_64.iso'
 
 	# setting of the general parameters
-	archisoRequiredVersion="archiso 62.1-1"
+	archisoRequiredVersion="archiso 63-1"
 	buildFolder=$HOME"/arcolinuxd-build"
 	outFolder=$HOME"/ArcoLinuxD-Out"
 	archisoVersion=$(sudo pacman -Q archiso)
