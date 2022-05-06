@@ -158,6 +158,7 @@ alias vbm="sudo /usr/local/bin/arcolinux-vbox-share"
 
 #enabling vmware services
 alias start-vmware="sudo systemctl enable --now vmtoolsd.service"
+alias vmware-start="sudo systemctl enable --now vmtoolsd.service"
 alias sv="sudo systemctl enable --now vmtoolsd.service"
 
 #shopt
@@ -305,7 +306,7 @@ alias ltupd="leftwm-theme update"
 alias ltupg="leftwm-theme upgrade"
 
 #arcolinux applications
-alias att="arcolinux-tweak-tool"
+alias att="archlinux-tweak-tool"
 alias adt="arcolinux-desktop-trasher"
 alias abl="arcolinux-betterlockscreen"
 alias agm="arcolinux-get-mirrors"
