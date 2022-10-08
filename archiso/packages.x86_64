@@ -276,7 +276,7 @@ numlockx
 #qbittorrent
 #scrot
 #simplescreenrecorder
-termite
+#termite
 #variety
 #vlc
 
@@ -554,6 +554,7 @@ arcolinux-paru-git
 #arcolinux-system-config-dev-git
 arcolinuxd-system-config-git
 arcolinux-systemd-services-git
+#arcolinux-systemd-services-dev-git
 #arcolinux-termite-themes-git
 #arcolinux-tint2-git
 #arcolinux-tint2-themes-git
