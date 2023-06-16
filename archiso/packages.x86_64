@@ -15,7 +15,6 @@ broadcom-wl-dkms
 btrfs-progs
 clonezilla
 #cloud-init
-#crda
 cryptsetup
 #darkhttpd
 ddrescue
@@ -34,6 +33,7 @@ ethtool
 exfatprogs
 f2fs-tools
 fatresize
+#foot-terminfo
 fsarchiver
 gnu-netcat
 gpart
@@ -44,8 +44,6 @@ grub
 hdparm
 hyperv
 intel-ucode
-#ipw2100-fw
-#ipw2200-fw
 irssi
 #iw
 #iwd
@@ -58,7 +56,6 @@ libusb-compat
 linux
 linux-atm
 linux-firmware
-linux-firmware-qlogic
 linux-firmware-marvell
 #livecd-sounds
 lsscsi
@@ -123,6 +120,7 @@ usbutils
 vim
 #virtualbox-guest-utils-nox
 vpnc
+#wezterm-terminfo
 wireless-regdb
 wireless_tools
 wpa_supplicant
@@ -134,6 +132,7 @@ xl2tpd
 aic94xx-firmware
 dialog
 dnsutils
+linux-firmware-qlogic
 linux-headers
 logrotate
 ntp
@@ -497,7 +496,7 @@ yay-bin
 arcolinux-alacritty-git
 #arcolinux-arc-kde
 #arcolinux-bin-git
-#arcolinux-candy-beauty-git
+#a-candy-beauty-icon-theme-git
 #arcolinux-common-git
 #arcolinux-conky-collection-git
 #arcolinux-conky-collection-plasma-git
@@ -508,7 +507,7 @@ arcolinux-alacritty-git
 #arcolinux-fonts-git
 #arcolinux-geany-git
 arcolinux-grub-theme-vimix-git
-#arcolinux-gtk3-arcolinux-candy-beauty-git
+#arcolinux-gtk3-a-candy-beauty-icon-theme-git
 arcolinux-gtk3-sardi-arc-git
 #arcolinux-gtk3-surfn-arc-git
 #arcolinux-gtk3-surfn-arc-breeze-git
