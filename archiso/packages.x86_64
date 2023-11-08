@@ -133,6 +133,7 @@ xl2tpd
 aic94xx-firmware
 dialog
 dnsutils
+libadwaita-without-adwaita-git
 linux-firmware-qlogic
 linux-headers
 logrotate
@@ -916,4 +917,3 @@ xfwm4
 #                                ISO SPECIFIC
 ###########################################################################
 chaotic-keyring
-libadwaita-without-adwaita-git
