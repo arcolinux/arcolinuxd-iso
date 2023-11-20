@@ -915,3 +915,4 @@ xfwm4
 #                                ISO SPECIFIC
 ###########################################################################
 chaotic-keyring
+#mkinitcpio-firmware
