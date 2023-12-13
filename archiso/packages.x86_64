@@ -309,7 +309,7 @@ ttf-hack
 arc-gtk-theme
 #arc-darkest-theme-git
 #kvantum-qt5-git
-kvantum-qt6-git
+#kvantum-qt6-git
 #openbox-arc-git
 
 ###utilities
