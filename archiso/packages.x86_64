@@ -42,8 +42,6 @@ grub
 hdparm
 hyperv
 intel-ucode
-#iw
-#iwd
 jfsutils
 #kitty-terminfo
 less
@@ -346,6 +344,7 @@ hw-probe
 #hyphen-en
 #grsync
 #intltool
+iw
 #jsoncpp
 #libmtp
 laptop-detect
