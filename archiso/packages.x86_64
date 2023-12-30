@@ -346,7 +346,6 @@ hw-probe
 #hyphen-en
 #grsync
 #intltool
-#iw
 #jsoncpp
 #libmtp
 laptop-detect
