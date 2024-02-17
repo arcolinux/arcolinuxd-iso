@@ -933,3 +933,6 @@ xfwm4
 ###########################################################################
 chaotic-keyring
 #mkinitcpio-firmware
+
+## chaotics-aur
+#flat-remix
