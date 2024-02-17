@@ -932,6 +932,7 @@ xfwm4
 #                                ISO SPECIFIC
 ###########################################################################
 chaotic-keyring
+chaotic-mirrorlist
 #mkinitcpio-firmware
 
 ## chaotics-aur
