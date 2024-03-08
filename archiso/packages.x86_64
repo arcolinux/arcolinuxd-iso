@@ -734,6 +734,7 @@ arcolinux-welcome-app-git
 #plasma-framework5
 #hwinfo
 #qt5-xmlpatterns
+
 adobe-source-han-sans-jp-fonts
 adobe-source-han-sans-kr-fonts
 adobe-source-han-sans-cn-fonts
@@ -931,6 +932,9 @@ xfwm4
 ###########################################################################
 #                                ISO SPECIFIC
 ###########################################################################
+##arcolinux-apps
+#sofirem-git
+
 chaotic-keyring
 chaotic-mirrorlist
 #mkinitcpio-firmware
