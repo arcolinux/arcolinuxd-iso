@@ -58,7 +58,7 @@ lvm2
 #lynx
 man-db
 man-pages
-mc
+#mc
 mdadm
 memtest86+
 memtest86+-efi
@@ -715,25 +715,25 @@ arcolinux-welcome-app-git
 #arcolinux-welcome-app-deepin-git
 
 ###########################################################################
-#                                CALAMARES DEPENDENCIES
+#                                CALAMARES DEPENDENCIES IN PGKBUILD 
 ###########################################################################
 
-ckbcomp
-xkeyboard-config
-upower
-kcoreaddons5
-kconfig5
-ki18n5
-kservice5
-kwidgetsaddons5
-kpmcore
+#ckbcomp
+#xkeyboard-config
+#upower
+#kcoreaddons5
+#kconfig5
+#ki18n5
+#kservice5
+#kwidgetsaddons5
+#kpmcore
 #arcolinux-kpmcore
-boost-libs
-libpwquality
-squashfs-tools
-plasma-framework5
-hwinfo
-qt5-xmlpatterns
+#boost-libs
+#libpwquality
+#squashfs-tools
+#plasma-framework5
+#hwinfo
+#qt5-xmlpatterns
 adobe-source-han-sans-jp-fonts
 adobe-source-han-sans-kr-fonts
 adobe-source-han-sans-cn-fonts
